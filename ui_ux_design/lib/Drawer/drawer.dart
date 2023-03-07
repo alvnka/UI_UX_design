@@ -11,7 +11,7 @@ class _MyDrawerState extends State<MyDrawer> {
     return Drawer(
       child: ListView(
         children: <Widget>[
-          UserAccountsDrawerHeader(
+          const UserAccountsDrawerHeader(
             accountName: Text("Your Name"),
             accountEmail: Text("youremail@example.com"),
             currentAccountPicture: CircleAvatar(
@@ -23,29 +23,29 @@ class _MyDrawerState extends State<MyDrawer> {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.home),
-            title: Text("Home"),
+            leading: const Icon(Icons.home),
+            title: const Text("Home"),
             onTap: () {
               Navigator.of(context).push(
-                MaterialPageRoute(builder: ((context) => Placeholder())),
+                MaterialPageRoute(builder: ((context) => const Placeholder())),
               );
             },
           ),
           ListTile(
-            leading: Icon(Icons.align_vertical_bottom),
-            title: Text("Trading_symbols"),
+            leading: const Icon(Icons.align_vertical_bottom),
+            title: const Text("Trading_symbols"),
             onTap: () {
               Navigator.of(context).push(
-                MaterialPageRoute(builder: ((context) => Placeholder())),
+                MaterialPageRoute(builder: ((context) => const Placeholder())),
               );
             },
           ),
           ListTile(
-            leading: Icon(Icons.settings),
-            title: Text("Settings"),
+            leading: const Icon(Icons.settings),
+            title: const Text("Settings"),
             onTap: () {
               Navigator.of(context).push(
-                MaterialPageRoute(builder: ((context) => Placeholder())),
+                MaterialPageRoute(builder: ((context) => const Placeholder())),
               );
             },
           ),
