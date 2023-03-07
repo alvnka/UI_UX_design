@@ -33,7 +33,16 @@ class _MyDrawerState extends State<MyDrawer> {
           ),
           ListTile(
             leading: const Icon(Icons.align_vertical_bottom),
-            title: const Text("Trading_symbols"),
+            title: const Text("Schools"),
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(builder: ((context) => const Placeholder())),
+              );
+            },
+          ),
+          ListTile(
+            leading: const Icon(Icons.align_vertical_bottom),
+            title: const Text("Performance"),
             onTap: () {
               Navigator.of(context).push(
                 MaterialPageRoute(builder: ((context) => const Placeholder())),

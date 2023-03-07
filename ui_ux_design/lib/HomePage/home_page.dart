@@ -1,7 +1,7 @@
 import 'package:ui_ux_design/import/import.dart';
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, this.title = "Stock track ke"});
+  const MyHomePage({super.key, this.title = "School advert"});
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
